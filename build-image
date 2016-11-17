@@ -1,12 +1,12 @@
 #!/bin/bash
 
-title="Appear.in Install"
+title="YouTube Install"
 size="120000" # 120MB
 backgroundPictureName="dmg_background.png"
-applicationName="Appear.in"
+applicationName="YouTube"
 volumePath="/Volumes/${title}"
-finalDMGName="build/Appear.in-Install.dmg"
-source="build/Appear.in-darwin-x64"
+finalDMGName="build/YouTube-Install.dmg"
+source="build/YouTube-darwin-x64"
 
 hdiutil create -srcfolder "${source}" -volname "${title}" -fs HFS+ \
   -fsargs "-c c=64,a=16,e=16" -format UDRW -size ${size}k build/pack.temp.dmg

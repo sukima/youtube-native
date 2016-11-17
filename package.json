@@ -1,12 +1,12 @@
 {
-  "name": "appearin-native",
-  "version": "1.0.1",
+  "name": "youtube-native",
+  "version": "1.0.0",
   "private": true,
-  "description": "Build Appear.in as a native app",
+  "description": "Build YouTube.com as a native app",
   "scripts": {
     "build-image": "build-image",
     "build-icons": "mkdir -p build && build-icons",
-    "build-app": "mkdir -p build && nativefier -f -n 'Appear.in' -i 'build/Logo.icns' 'https://appear.in/' build/",
+    "build-app": "mkdir -p build && nativefier -f -n 'YouTube' -i 'build/Logo.icns' 'https://www.youtube.com/' build/",
     "start": "npm run build-icons && npm run build-app",
     "deploy": "npm run clean && npm run start && npm run build-image",
     "clean": "rm -rf build"

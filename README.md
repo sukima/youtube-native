@@ -1,4 +1,4 @@
-# Appear.in Native
+# YouTube Native
 
 Yes it can be done!
 
@@ -15,7 +15,7 @@ scripts.
 2.  Clone this repo and cd into it
 3.  Run `npm install`
 4.  Run `npm start`
-5.  Final build will be in `build/Appear.in-darwin-x64`
+5.  Final build will be in `build/YouTube-darwin-x64`
 
 The app can be moveed to `/Applications` if you wish.
 
